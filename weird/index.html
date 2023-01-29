@@ -1,0 +1,221 @@
+<html>
+<head>
+    <meta charset="utf-8"/>
+<meta name="description" content=""/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+<title>奇怪的语言 | 保罗·格雷厄姆</title>
+
+<link rel="shortcut icon" href="https://ibetax.github.io/favicon.ico?v=1674986218108">
+
+<link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://ibetax.github.io/styles/main.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/css/bootstrap.min.css">
+
+<script src="https://cdn.jsdelivr.net/npm/@highlightjs/cdn-assets/highlight.min.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.15.10/languages/dockerfile.min.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.15.10/languages/dart.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/moment@2.27.0/moment.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/js/bootstrap.min.js"></script>
+<!-- DEMO JS -->
+<!--<script src="media/scripts/index.js"></script>-->
+
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-49271007-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+        gtag('config', 'UA-49271007-1');
+    </script>
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.css">
+</head>
+<body>
+<div class="main gt-bg-theme-color-first">
+    <nav class="navbar navbar-expand-lg">
+    <div class="navbar-brand">
+        <img class="user-avatar" src="/images/avatar.png" alt="头像">
+        <div class="site-name gt-c-content-color-first">
+            保罗·格雷厄姆
+        </div>
+    </div>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-bars gt-c-content-color-first" style="font-size: 18px"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="navbar-nav mr-auto" style="text-align: center">
+            
+                <div class="nav-item">
+                    
+                        <a href="/" class="menu gt-a-link">
+                            首页
+                        </a>
+                    
+                </div>
+            
+                <div class="nav-item">
+                    
+                        <a href="/archives" class="menu gt-a-link">
+                            归档
+                        </a>
+                    
+                </div>
+            
+                <div class="nav-item">
+                    
+                        <a href="/tags" class="menu gt-a-link">
+                            标签
+                        </a>
+                    
+                </div>
+            
+                <div class="nav-item">
+                    
+                        <a href="https://ibetax.github.io/why" class="menu gt-a-link">
+                            关于
+                        </a>
+                    
+                </div>
+            
+        </div>
+        <div style="text-align: center">
+            <form id="gridea-search-form" style="position: relative" data-update="1674986218108" action="/search/index.html">
+                <input class="search-input" autocomplete="off" spellcheck="false" name="q" placeholder="搜索文章" />
+                <i class="fas fa-search gt-c-content-color-first" style="position: absolute; top: 9px; left: 10px;"></i>
+            </form>
+        </div>
+    </div>
+</nav>
+
+    <div class="post-container">
+        <div class="post-detail gt-bg-theme-color-second">
+            <article class="gt-post-content">
+                <h2 class="post-title">
+                    奇怪的语言
+                </h2>
+                <div class="post-info">
+                    <time class="post-time gt-c-content-color-first">
+                        · 2021-08-14 ·
+                    </time>
+                    
+                        <a href="https://ibetax.github.io/tag/BF-rlcOJT/" class="post-tags">
+                            # Paul Graham
+                        </a>
+                    
+                </div>
+                <div class="post-content">
+                    <p>如果有人说，根据他的经验，所有的编程语言基本上都是一样的。他说的其实不是编程语言，而是编程的方式。</p>
+<p>在编程中，99.5% 的工作都是整合调用各种库函数。在这方面，几乎所有流行的语言都是如此。在程序员的职业生涯中，只是交叉使用几种流行语言应该不难。</p>
+<p>但是剩下的 0.5% 才是最有趣的。如果你想知道它是由什么组成的，奇怪的语言是一个很好的线索。</p>
+<p>奇怪的语言并不是碰巧变得奇怪的。至少好的语言不是这样。好的语言的怪异之处通常意味着它们不仅仅是整合调用各种库函数。</p>
+<p>举个具体的例子： Lisp 的宏。即使对于许多 Lisp 程序员来说，Lisp 宏看起来也很奇怪。它不仅和流行语言没有任何交集，而且就其本质而言，如果不把它变成 Lisp 的一种方言，就很难在一种语言中正确实现。宏，绝对是超越胶水编程技术的证据。例如，为了解决问题，首先是为这类问题编写一种语言，然后再用它来编写特定的应用程序。这只是宏可以做的事情的一个方面；也只是利用程序控制技术的一个方向，还有很多其他可以利用的地方有待探索。</p>
+<p>所以，如果你想扩展你关于编程用途的了解，一种方法就是学习一些奇怪的语言。选择一种大多数程序员认为奇怪但其使用者大都很聪明的语言，然后关注这种语言和流行语言的交集之间的差异。你能用这种语言表达出其他语言难以表达的东西吗？在学习表达以前难以表达的事情的过程中，你可能也会学会如何思考以前难以思考的事情。</p>
+<p><strong>感谢</strong>特雷弗·布莱克韦尔（Trevor Blackwell）、帕特里克·克里森（Patrick Collison）、丹尼尔·加克勒（Daniel Gackle）、阿姆贾德·马萨德（Amjad Masad）和罗伯特·莫里斯（Robert Morris）阅读本文的草稿。</p>
+<hr>
+<blockquote>
+<p>由于本人<s>能力有限</s>比较菜，所以大部分内容是结合机翻完成的，若内容有误，还请留言，我会在第一时间进行更正。</p>
+</blockquote>
+<p>原文地址：<a href="http://www.paulgraham.com/weird.html">http://www.paulgraham.com/weird.html</a></p>
+<p>原文标题：Weird Languages</p>
+<p>原文发表日期：2021年8月</p>
+
+                </div>
+            </article>
+        </div>
+
+        
+            <div class="next-post">
+                <div class="next gt-c-content-color-first">下一篇</div>
+                <a href="https://ibetax.github.io/hwh/" class="post-title gt-a-link">
+                    如何努力工作？
+                </a>
+            </div>
+        
+
+        
+            <span id="/weird//" class="leancloud_visitors" data-flag-title="奇怪的语言">
+                <em class="post-meta-item-text">阅读量 </em>
+                <i class="leancloud-visitors-count">0</i>
+            </span>
+        
+
+        
+
+        
+            <script src='https://cdn.jsdelivr.net/npm/valine/dist/Valine.min.js'></script>
+
+<style>
+	div#vcomments{
+		width:100%;
+		max-width: 1000px;
+		padding: 2.5%
+	}
+</style>
+
+
+	<div id="vcomments"></div>
+
+<script>
+	new Valine({
+		el: '#vcomments',
+		appId: '45aeJsgI5JGIw40CmOBFrAtu-gzGzoHsz',
+		appKey: '9NKIo7c5jsGH9a5msa1TJr4a',
+		avatar: '',
+		pageSize: 5,
+		recordIp: true,
+		placeholder: 'Just Go Go',
+		visitor: true,
+	});
+</script>
+
+        
+
+        <div class="site-footer gt-c-content-color-first">
+    <div class="slogan gt-c-content-color-first">
+        保罗·格雷厄姆（Paul Graham）博客中文站
+    </div>
+    <div class="social-container">
+        
+            
+                <a href="https://github.com/ibetax/paulgraham" target="_blank">
+                    <i class="fab fa-github gt-c-content-color-first"></i>
+                </a>
+                
+                    
+            
+                    
+            
+                    
+            
+                    
+            
+                    
+            
+                    
+    </div>
+    <div class="footer-info">
+        Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea | </a><a href="https://www.paulgraham.cn/atom.xml" target="_blank">RSS</a>
+    </div>
+    <!-- <div>
+        Theme by <a href="https://imhanjie.com/" target="_blank">imhanjie</a>, Powered by <a
+                href="https://github.com/getgridea/gridea" target="_blank">Gridea | <a href="https://ibetax.github.io/atom.xml" target="_blank">RSS</a></a>
+    </div> -->
+</div>
+
+<script>
+    hljs.initHighlightingOnLoad()
+</script>
+    </div>
+</div>
+</body>
+</html>

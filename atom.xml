@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://ibetax.github.io</id>
+    <title>保罗·格雷厄姆</title>
+    <updated>2023-01-29T09:58:24.895Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://ibetax.github.io"/>
+    <link rel="self" href="https://ibetax.github.io/atom.xml"/>
+    <subtitle>保罗·格雷厄姆（Paul Graham）博客中文站</subtitle>
+    <logo>https://ibetax.github.io/images/avatar.png</logo>
+    <icon>https://ibetax.github.io/favicon.ico</icon>
+    <rights>All rights reserved 2023, 保罗·格雷厄姆</rights>
+    <entry>
+        <title type="html"><![CDATA[如何获取新想法]]></title>
+        <id>https://ibetax.github.io/getideas/</id>
+        <link href="https://ibetax.github.io/getideas/">
+        </link>
+        <updated>2023-01-19T06:45:03.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[阅读的意义]]></title>
+        <id>https://ibetax.github.io/read/</id>
+        <link href="https://ibetax.github.io/read/">
+        </link>
+        <updated>2022-12-23T04:15:13.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[异端的兴起]]></title>
+        <id>https://ibetax.github.io/heresy/</id>
+        <link href="https://ibetax.github.io/heresy/">
+        </link>
+        <updated>2022-04-10T15:15:13.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[想法要表达出来]]></title>
+        <id>https://ibetax.github.io/words/</id>
+        <link href="https://ibetax.github.io/words/">
+        </link>
+        <updated>2022-02-14T04:15:13.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[世上真的有「好品味」吗？]]></title>
+        <id>https://ibetax.github.io/goodtaste/</id>
+        <link href="https://ibetax.github.io/goodtaste/">
+        </link>
+        <updated>2021-11-21T06:57:21.000Z</updated>
+        <summary type="html"><![CDATA[<p>这篇文章来源于剑桥联合会的一次谈话。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>这篇文章来源于剑桥联合会的一次谈话。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[不止是聪明]]></title>
+        <id>https://ibetax.github.io/smart/</id>
+        <link href="https://ibetax.github.io/smart/">
+        </link>
+        <updated>2021-10-25T04:15:13.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[奇怪的语言]]></title>
+        <id>https://ibetax.github.io/weird/</id>
+        <link href="https://ibetax.github.io/weird/">
+        </link>
+        <updated>2021-08-14T04:15:13.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[如何努力工作？]]></title>
+        <id>https://ibetax.github.io/hwh/</id>
+        <link href="https://ibetax.github.io/hwh/">
+        </link>
+        <updated>2021-06-25T15:15:13.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[一个人自己的项目]]></title>
+        <id>https://ibetax.github.io/own/</id>
+        <link href="https://ibetax.github.io/own/">
+        </link>
+        <updated>2021-06-14T04:15:13.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[进击的书呆子]]></title>
+        <id>https://ibetax.github.io/fn/</id>
+        <link href="https://ibetax.github.io/fn/">
+        </link>
+        <updated>2021-05-14T04:15:13.000Z</updated>
+    </entry>
+</feed>
